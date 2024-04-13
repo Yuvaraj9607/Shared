@@ -39,9 +39,9 @@ def call() {
             //     steps {
             //         script {
             //             withCredentials([string(credentialsId: 'dockerPass', variable: 'dockerPassword')]) {
-            //                 sh "docker login -u naresh2603 -p ${dockerPassword}"
-            //                 sh 'docker push naresh2603/multi:v2'
-            //                 sh 'docker rmi naresh2603/multi:v2'
+            //                 sh "docker login -u yuvaraj9607 -p ${dockerPassword}"
+            //                 sh 'docker push Multideploy/multi:v2'
+            //                 sh 'docker rmi Multideploy/multi:v2'
             //             }
             //         }
             //     }
